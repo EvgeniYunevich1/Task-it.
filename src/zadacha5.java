@@ -10,11 +10,11 @@ public class zadacha5 {
         int plochat2=c*d;
         int plochatYchastka=e*f;
         if (plochatYchastka>plochat1) {
-            System.out.println("дом 1 помещается");
+            System.out.println("дом 1 поместится");
         }else{
             System.out.println("дом 1 не помещается");}
             if (plochatYchastka > plochat2){
-                System.out.println("дом 2 помещается");
+                System.out.println("дом 2 поместится");
         }else {
             System.out.println("дом 2 не помещается");
         }
