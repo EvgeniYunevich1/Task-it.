@@ -1,19 +1,15 @@
 public class zadacha7 {
     public static void main(String[] args) {
-        int a=10;
-        int b=78;
-        int c = 6;
+        int a=1;
+        int b=3;
+        int c = 2;
         int d =4;
-        int e =7;
-        int f =8;
-        if (a<e & b<f) {
-            System.out.println("дом 1 поместится");
+        int e =5;
+        int f =4;
+        if(a+c<=e & b+d<=f) {
+            System.out.println("можно");
         }else{
-            System.out.println("дом 1 не помещается");}
-            if (c<e & d<f){
-                System.out.println("дом 2 поместится");
-        }else {
-            System.out.println("дом 2 не помещается");
+            System.out.println("нельзя");
         }
     }
 }
