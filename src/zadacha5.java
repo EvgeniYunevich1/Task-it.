@@ -1,19 +1,14 @@
-public class zadacha5 {
-    public static void main(String[] args) {
-        int a=10;
-        int b=78;
-        int c = 6;
-        int d =4;
-        int e =7;
-        int f =8;
-        if (a<e & b<f) {
-            System.out.println("дом 1 поместится");
-        }else{
-            System.out.println("дом 1 не помещается");}
-            if (c<e & d<f){
-                System.out.println("дом 2 поместится");
-        }else {
-            System.out.println("дом 2 не помещается");
+    public class zadacha5 {
+        public static void main(String[] args) {
+            int rybli =1;
+            int a=rybli%100;
+            int b=rybli%10;
+            if(b==1 & a!=11){
+                System.out.println(rybli+"рубль");}
+            if (a>1 && a<5 || b>1 && a<5){
+                System.out.println(rybli+"рубля");}
+            if(a<20 && a>9 || b>4 && b<10){
+                System.out.println(rybli+"рублей");}
         }
+
     }
-}
