@@ -1,11 +1,15 @@
 public class zadacha4 {
     public static void main(String[] args) {
         int a=15;
-        int b=6;
-        int r=10;
-        if( r>a/2 && r>b/2){
-            System.out.println("закроет");}
-        else{
-            System.out.println("не закроет");}
+        int b=1;
+        int r=1;
+        int cE2=(a*a)+(b*b);
+        double c = Math.sqrt(cE2);
+        if(c<2*r) {
+            System.out.println("можно закрыть");}
+        else {
+            System.out.println("нельзя закрыть");
+
+        }
     }
 }
