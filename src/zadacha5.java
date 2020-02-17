@@ -1,14 +1,13 @@
 public class zadacha5 {
     public static void main(String[] args) {
-        int rybli = 17;
-        int a = rybli % 100;
-        int b = rybli % 10;
-        if (b == 1 & a != 11) {
+        int rybli = 14;
+        if (rybli % 10 == 1) {
             System.out.println(rybli + " " + "рубль");
-        } else if (a > 1 && a < 5 || b > 1 && b < 4) {
+        } else if (rybli % 100 >= 11 && rybli % 100 <= 20) {
+            System.out.println(rybli + " " + "рублей");
+        } else if (rybli % 10 == 2 || rybli % 10 == 3 || rybli % 10 == 4) {
             System.out.println(rybli + " " + "рубля");
-        }
-        if (a < 20 && a > 9 || b > 4 && b < 10) {
+        } else if (rybli % 10 >= 5 || rybli % 10 <= 9 || rybli % 10 == 0) {
             System.out.println(rybli + " " + "рублей");
         }
     }
