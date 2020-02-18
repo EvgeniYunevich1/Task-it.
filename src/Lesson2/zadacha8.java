@@ -2,7 +2,7 @@ package Lesson2;
 //рассчитать факториал числа
 public class zadacha8 {
     public static void main(String[] args) {
-        long zadannoeChislo = 5;
+        long zadannoeChislo = 2;
         long factorial = 1;
         long i = 1;
         while (i <= zadannoeChislo) {
