@@ -8,7 +8,7 @@ public class zadacha16 {
             System.out.print(mas[i]);}
 
         System.out.println();
-        for(int i=10;i>=0;i--){
+        for(int i=mas.length-1;i>=0;i--){
             System.out.print(mas[i]);
         }
 
