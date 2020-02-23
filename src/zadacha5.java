@@ -1,6 +1,6 @@
 public class zadacha5 {
     public static void main(String[] args) {
-        int rybli = 14;
+        int rybli = 17;
         if (rybli % 10 == 1) {
             System.out.println(rybli + " " + "рубль");
         } else if (rybli % 100 >= 11 && rybli % 100 <= 20) {

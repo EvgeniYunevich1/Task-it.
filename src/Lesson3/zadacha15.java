@@ -1,4 +1,5 @@
 package Lesson3;
+
 //сумма значений между максимальным и минимальным значениями
 public class zadacha15 {
     public static void main(String[] args) {
@@ -20,17 +21,17 @@ public class zadacha15 {
                 minMarksIndex = i;
             }
         }
-        if(minMarksIndex<maxMarkIndex) {
+        if (minMarksIndex < maxMarkIndex) {
             int sum = 0;
             for (int i = minMarksIndex + 1; i < maxMarkIndex; i++) {
                 sum += marks[i];
             }
             System.out.println(sum);
         }
-        if(maxMarkIndex<minMarksIndex){
-            int sum=0;
-            for(int i=maxMarkIndex+1;i<minMarksIndex;i++){
-                sum+=marks[i];
+        if (maxMarkIndex < minMarksIndex) {
+            int sum = 0;
+            for (int i = maxMarkIndex + 1; i < minMarksIndex; i++) {
+                sum += marks[i];
             }
             System.out.println(sum);
         }

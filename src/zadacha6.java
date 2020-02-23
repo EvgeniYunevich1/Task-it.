@@ -2,7 +2,7 @@ public class zadacha6 {
     public static void main(String[] args) {
         int d = 28;
         int m = 2;
-        int g = 2564;
+        int g = 1982;
         if (m == 1 || m == 3 || m == 5 || m == 7 || m == 8 || m == 10) {
             if (d > 1 && d < 31) {
                 d++;
