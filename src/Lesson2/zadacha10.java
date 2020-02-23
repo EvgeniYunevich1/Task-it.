@@ -13,6 +13,6 @@ public class zadacha10 {
             sum += chislo % 10;
             chislo /= 10;
         }
-        System.out.println("Сумма чисел ="+sum);
+        System.out.println("Сумма чисел =" + sum);
     }
 }
