@@ -10,7 +10,6 @@ public class zadacha17 {
                     m[i][j] = 0;
                 else
                     m[i][j] = 1;
-                System.out.print(m[i].length);
             }
         }
         for (int i = m.length - 1; i >= m.length / 2; i--) {
