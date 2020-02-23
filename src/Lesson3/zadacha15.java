@@ -1,6 +1,6 @@
 package Lesson3;
 
-//сумма значений между максимальным и минимальным значениями
+//сумма значений между максимальным и минимальным значениями.
 public class zadacha15 {
     public static void main(String[] args) {
         int marks[] = {3, 17, 8, 9, 11, 10, 1};
