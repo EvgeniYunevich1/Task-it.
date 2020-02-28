@@ -10,11 +10,12 @@ public class Zadacha19 {
         String string = scanner.nextLine();
         int n = 0;
         string = string.trim();
-        if(string.length() !=0){
+        String stringDelitSings = string.replaceAll("[,:;!?.()]", "");
+        if(stringDelitSings.length() !=0){
             n++;
         }
-        for (int i = 0; i < string.length(); i++) {
-            if (string.charAt(i) == ' ' && string.charAt(i + 1) != ' ') {
+        for (int i = 0; i < stringDelitSings.length(); i++) {
+            if (stringDelitSings.charAt(i) == ' ' && stringDelitSings.charAt(i + 1) != ' ') {
                 n++;
             }
         }
