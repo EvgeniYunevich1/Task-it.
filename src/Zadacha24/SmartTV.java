@@ -1,6 +1,6 @@
 package Zadacha24;
 
-public class SmartTV extends Texnika {
+public class SmartTV extends TV {
     public void SerfInternet() {
         System.out.println("искать в интернете");
     }
