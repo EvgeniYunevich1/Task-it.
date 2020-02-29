@@ -15,6 +15,7 @@ public class Time {
     }
 
     public Time(int AllSecond) {
+
         second = AllSecond;
     }
 
@@ -23,14 +24,17 @@ public class Time {
     }
 
     public int getreturnAllSecond() {
+
         return returnAllSecond();
     }
 
     public void setreturnAllSecond(int returnAllSecond) {
+
         this.returnAllSecond = returnAllSecond;
     }
 
     public int getHour() {
+
         return hour;
     }
 
@@ -39,14 +43,17 @@ public class Time {
     }
 
     public int getMinuts() {
+
         return minuts;
     }
 
     public void setMinuts(int minuts) {
+
         this.minuts = minuts;
     }
 
     public int getSecond() {
+
         return second;
     }
 

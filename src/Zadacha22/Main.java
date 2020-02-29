@@ -4,8 +4,6 @@ package Zadacha22;
 import org.jetbrains.annotations.NotNull;
 
 public class Main {
-
-
     public static void main(String[] args) {
         Time Object1 = new Time(40000);
         Time Object2 = new Time(1, 0, 4);
