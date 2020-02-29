@@ -6,7 +6,7 @@ public class Time {
     private int hour;
     private int minuts;
     private int second;
-   private int returnAllSecond;
+    private int returnAllSecond;
 
     public Time(int hour, int minuts, int second) {
         this.hour = hour;
@@ -56,12 +56,13 @@ public class Time {
 
     public static class Object {
         public static int Sravnenie(@NotNull Time Object1, @NotNull Time Object2) {
-            if(Object1.getSecond()==Object2.getreturnAllSecond()){
+            if (Object1.getSecond() == Object2.getreturnAllSecond()) {
                 System.out.println("Object1=Object2");
             }
             if (Object1.getSecond() > Object2.getreturnAllSecond()) {
                 System.out.println("Object1>Object2");
-            } if(Object1.getSecond()<Object2.getreturnAllSecond()) {
+            }
+            if (Object1.getSecond() < Object2.getreturnAllSecond()) {
                 System.out.println("Object1<Object2");
             }
 
