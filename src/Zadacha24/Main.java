@@ -11,6 +11,7 @@ public class Main {
         tv.name();
         smartTV.SerfInternet();
         smartTV.name();
+        smartTV.ShowCinema();
         smartTV.printState();
     }
 }
