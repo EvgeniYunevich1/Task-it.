@@ -11,7 +11,7 @@ public class Zadacha19 {
         int n = 0;
         string = string.trim();
         String stringDelitSings = string.replaceAll("[,:;!?.()]", "");
-        if(stringDelitSings.length() !=0){
+        if (stringDelitSings.length() != 0) {
             n++;
         }
         for (int i = 0; i < stringDelitSings.length(); i++) {
@@ -20,7 +20,6 @@ public class Zadacha19 {
             }
         }
         System.out.println(n);
-
 
 
     }
