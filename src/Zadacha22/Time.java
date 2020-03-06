@@ -62,7 +62,7 @@ public class Time {
     }
 
     public static class Object {
-        public static int Sravnenie(@NotNull Time Object1, @NotNull Time Object2) {
+        public static  int Sravnenie(@NotNull Time Object1, @NotNull Time Object2) {
             if (Object1.getSecond() == Object2.getreturnAllSecond()) {
                 System.out.println("Object1=Object2");
             }

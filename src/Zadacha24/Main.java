@@ -5,8 +5,6 @@ public class Main {
     public static void main(String[] args) {
         SmartTV smartTV = new SmartTV();
         TV tv = new TV();
-        tv.TVoff();
-        tv.TVon();
         tv.ShowCinema();
         tv.name();
         smartTV.SerfInternet();

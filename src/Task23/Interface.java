@@ -4,9 +4,8 @@ import java.util.Scanner;
 
 public class Interface {
     public static void Interface() {
-        int number = 0;
+
         Bankomat bankomat = new Bankomat();
-        Stovage stovage = new Stovage();
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите число 1-снять деньги 2- проверить баланс 3- выход");
         int Opereshen = 0;
@@ -20,7 +19,7 @@ public class Interface {
                     System.out.println("Введите число 1-снять деньги   2- проверить баланс 3- выход");
                     continue;
                 case 2:
-                    System.out.println(bankomat.x);
+                    System.out.println("Денег в банкомате " + bankomat.x);
                     System.out.println("Введите число 1-снять деньги 2- проверить баланс 3- выход");
                     break;
                 default:
@@ -29,7 +28,7 @@ public class Interface {
                     System.out.println("Введите число 1-снять деньги   2- проверить балан 3- выход");
                     break;
                 case 3:
-                    System.out.println("до свидания");
+                    System.out.println("До свидания");
                     break;
             }
         }
