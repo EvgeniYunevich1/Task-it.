@@ -14,7 +14,7 @@ public class Interface {
             switch (Opereshen) {
                 case 1:
                     System.out.println("Введите сумму");
-                    int sum = scanner.nextInt();
+                     int sum = scanner.nextInt();
                     bankomat.calculeitCash(sum);
                     System.out.println("Введите число 1-снять деньги   2- проверить баланс 3- выход");
                     continue;
