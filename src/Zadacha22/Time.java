@@ -23,6 +23,7 @@ public class Time {
         return hour * 3600 + minuts * 60 + second;
     }
 
+
     public int getreturnAllSecond() {
 
         return returnAllSecond();
