@@ -2,7 +2,7 @@ package Zadacha24;
 
 public class SmartTV extends TV {
     public void SerfInternet() {
-        System.out.println("искать в интернете");
+        System.out.println("исчет в интернете");
     }
 
     public void name() {
@@ -13,17 +13,11 @@ public class SmartTV extends TV {
 
     public void on() {
         state = true;
+        System.out.println("TV On");
     }
 
     public void off() {
         state = false;
-    }
-
-    public void printState() {
-        if (state) {
-            System.out.println("TV On");
-        } else {
-            System.out.println("TV Off");
-        }
+        System.out.println("TV Off");
     }
 }
