@@ -13,7 +13,7 @@ public class Interface {
             Opereshen = scanner.nextInt();
             switch (Opereshen) {
                 case 1:
-                    System.out.println("Введите сумму");
+                    System.out.println("Введите сумму.");
                      int sum = scanner.nextInt();
                     bankomat.calculeitCash(sum);
                     System.out.println("Введите число 1-снять деньги   2- проверить баланс 3- выход");

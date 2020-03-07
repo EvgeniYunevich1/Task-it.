@@ -22,7 +22,7 @@ public class Bankomat {
                 x = stovage.getCashBankomat() - sum;
             }
         } else {
-            System.out.println("Недостаточно средств.");
+            System.out.println("Недостаточно средств");
         }
         return stovage.setCashBankomat(x);
     }

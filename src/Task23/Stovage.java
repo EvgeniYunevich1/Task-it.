@@ -14,6 +14,7 @@ public class Stovage {
         this.cashBankomat = cashBankomat;
         return cashBankomat;
     }
+
 }
 
 
