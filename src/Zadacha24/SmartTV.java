@@ -2,7 +2,7 @@ package Zadacha24;
 
 public class SmartTV extends TV {
     public void SerfInternet() {
-        System.out.println("исчет в интернете");
+        System.out.println("ищет в интернете");
     }
 
     public void name() {
