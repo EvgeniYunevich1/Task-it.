@@ -13,5 +13,6 @@ public class Main {
         smartTV.name();
         smartTV.ShowCinema();
         smartTV.on();
+
     }
 }
