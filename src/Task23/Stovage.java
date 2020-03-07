@@ -13,7 +13,7 @@ public class Stovage {
     public int setCashBankomat(int cashBankomat) {
         this.cashBankomat = cashBankomat;
         return cashBankomat;
-        
+
     }
 
 }
